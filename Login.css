@@ -1,0 +1,111 @@
+
+.form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+
+.form-content {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  width: 100%; 
+  display: flex;
+  justify-content: flex-start; 
+  margin-left: 300px;
+}
+
+.logo-container img {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-left: -50px; 
+}
+
+
+.header-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-container .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.input-container .remember-forgot label {
+  display: inline-flex; 
+  align-items: center;
+}
+
+.input-container .input-checkbox {
+  margin-right: 5px; 
+}
+
+.input-container .forgot-password {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.input-container .forgot-password:hover {
+  text-decoration: underline;
+}
+
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00296b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0047ab;
+}
+
+
+.background-container {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: contain;
+}
